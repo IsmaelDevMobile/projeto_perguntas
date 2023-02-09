@@ -15,7 +15,11 @@ class PerguntasApp extends StatelessWidget {
           centerTitle: true,
           title: const Text('Perguntas'),
         ),
-        body: const Text('Olá Flutter!!!'),
+        body: Column(
+          children: const [
+           Text('Olá Flutter!!!'),
+          ],
+        ),
       ),
     );
   }
