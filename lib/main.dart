@@ -20,7 +20,6 @@ class _PerguntasAppState extends State<PerguntasApp> {
     setState(() {
       _perguntaSelecionada++;
     });
-    print(_perguntaSelecionada);
   }
 
   @override
