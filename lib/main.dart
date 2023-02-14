@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_perguntas/questao.dart';
 import 'package:projeto_perguntas/questionario.dart';
-import 'package:projeto_perguntas/resposta.dart';
 import 'package:projeto_perguntas/resultado.dart';
 
 void main() {
@@ -56,7 +54,6 @@ class _PerguntasAppState extends State<PerguntasApp> {
         _pontuacaoTotal += pontuacao;
       });
     }
-    print(_pontuacaoTotal);
   }
 
   bool get temPerguntaSelecionada {
